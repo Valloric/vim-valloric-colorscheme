@@ -16,8 +16,8 @@ hi Boolean         guifg=#ffff00
 hi Character       guifg=#E6DB74
 hi Number          guifg=#ffff00
 hi String          guifg=#E6DB74
-hi Conditional     guifg=#3664FF               gui=none 
-hi Constant        guifg=#ffff00               gui=bold
+hi Conditional     guifg=#3664FF               gui=none
+hi Constant        guifg=#ffff00
 hi Cursor          guifg=#000000 guibg=#F8F8F0
 hi Debug           guifg=#BCA3A3               gui=bold
 hi Define          guifg=#66D9EF
@@ -39,7 +39,7 @@ hi Identifier      guifg=#FD971F
 hi Ignore          guifg=#808080 guibg=bg
 hi IncSearch       guifg=#C4BE89 guibg=#000000
 
-hi Keyword         guifg=#3664FF               
+hi Keyword         guifg=#3664FF
 hi Label           guifg=#E6DB74               gui=none
 hi Macro           guifg=#C4BE89               gui=italic
 hi SpecialKey      guifg=#66D9EF               gui=italic
@@ -58,7 +58,7 @@ hi PmenuThumb      guifg=#66D9EF
 hi PreCondit       guifg=#ff0004               gui=bold
 hi PreProc         guifg=#ff0004
 hi Question        guifg=#66D9EF
-hi Repeat          guifg=#3664FF               gui=bold
+hi Repeat          guifg=#3664FF
 hi Search          guifg=#FFFFFF guibg=#455354
 " marks column
 hi SignColumn      guifg=#A6E22E guibg=#232526
@@ -72,17 +72,17 @@ if has("spell")
     hi SpellLocal  guisp=#70F0F0 gui=undercurl
     hi SpellRare   guisp=#FFFFFF gui=undercurl
 endif
-hi Statement       guifg=#3664FF               gui=none 
+hi Statement       guifg=#3664FF               gui=none
 hi StatusLine      guifg=#455354 guibg=fg
 hi StatusLineNC    guifg=#808080 guibg=#080808
 hi StorageClass    guifg=#FD971F               gui=italic
-hi Structure       guifg=#66D9EF
+hi Structure       guifg=#AA00FF
 hi Tag             guifg=#3664FF               gui=italic
 hi Title           guifg=#ef5939
 hi Todo            guifg=#FFFFFF guibg=bg      gui=bold
 
-hi Typedef         guifg=#66D9EF
-hi Type            guifg=#66D9EF               gui=none
+hi Typedef         guifg=#AA00FF
+hi Type            guifg=#AA00FF               gui=none
 hi Underlined      guifg=#808080               gui=underline
 
 hi VertSplit       guifg=#808080 guibg=#080808 gui=bold
@@ -91,7 +91,7 @@ hi Visual                        guibg=#403D3D
 hi WarningMsg      guifg=#FFFFFF guibg=#333333 gui=bold
 hi WildMenu        guifg=#66D9EF guibg=#000000
 
-hi mySpecialSymbols guifg=cyan  gui=NONE 
+hi mySpecialSymbols guifg=cyan  gui=NONE
 hi ColorColumn     guibg=#3B3A32
 
 hi Normal          guifg=#F8F8F2 guibg=#000000
@@ -110,7 +110,7 @@ if &t_Co > 255
    hi Number          ctermfg=135
    hi String          ctermfg=144
    hi Conditional     ctermfg=161               cterm=bold
-   hi Constant        ctermfg=135               cterm=bold
+   hi Constant        ctermfg=135
    hi Cursor          ctermfg=16  ctermbg=253
    hi Debug           ctermfg=225               cterm=bold
    hi Define          ctermfg=81
@@ -152,7 +152,7 @@ if &t_Co > 255
    hi PreCondit       ctermfg=118               cterm=bold
    hi PreProc         ctermfg=118
    hi Question        ctermfg=81
-   hi Repeat          ctermfg=161               cterm=bold
+   hi Repeat          ctermfg=161
    hi Search          ctermfg=253 ctermbg=66
 
    " marks column
