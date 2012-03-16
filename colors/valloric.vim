@@ -41,8 +41,8 @@ hi IncSearch       guifg=#C4BE89 guibg=#000000
 
 hi Keyword         guifg=#3664FF
 hi Label           guifg=#E6DB74               gui=none
-hi Macro           guifg=#C4BE89               gui=italic
-hi SpecialKey      guifg=#66D9EF               gui=italic
+hi Macro           guifg=#C4BE89               gui=none
+hi SpecialKey      guifg=#66D9EF               gui=none
 
 hi MatchParen      guifg=#000000 guibg=#FD971F gui=bold
 hi ModeMsg         guifg=#E6DB74
@@ -64,8 +64,8 @@ hi Search          guifg=#FFFFFF guibg=#455354
 hi SignColumn      guifg=#A6E22E guibg=#232526
 hi SpecialChar     guifg=#3664FF               gui=bold
 hi SpecialComment  guifg=#13c100               gui=bold
-hi Special         guifg=#66D9EF guibg=bg      gui=italic
-hi SpecialKey      guifg=#888A85               gui=italic
+hi Special         guifg=#66D9EF guibg=bg      gui=none
+hi SpecialKey      guifg=#888A85               gui=none
 if has("spell")
     hi SpellBad    guisp=#FF0000 gui=undercurl
     hi SpellCap    guisp=#7070F0 gui=undercurl
@@ -75,10 +75,10 @@ endif
 hi Statement       guifg=#3664FF               gui=none
 hi StatusLine      guifg=#455354 guibg=fg
 hi StatusLineNC    guifg=#808080 guibg=#080808
-hi StorageClass    guifg=#FD971F               gui=italic
+hi StorageClass    guifg=#76BA00               gui=none
 hi Structure       guifg=#AA00FF
-hi Tag             guifg=#3664FF               gui=italic
-hi Title           guifg=#ef5939
+hi Tag             guifg=#3664FF               gui=none
+hi Title           guifg=#FFFFFF               gui=none
 hi Todo            guifg=#FFFFFF guibg=bg      gui=bold
 
 hi Typedef         guifg=#AA00FF
@@ -95,11 +95,13 @@ hi mySpecialSymbols guifg=cyan  gui=NONE
 hi ColorColumn     guibg=#3B3A32
 
 hi Normal          guifg=#F8F8F2 guibg=#000000
-hi Comment         guifg=#13c100
+hi Comment         guifg=#13c100               gui=none
 hi CursorLine                    guibg=#1F1F1F
 hi CursorColumn                  guibg=#293739
 hi LineNr          guifg=#3D3D3D guibg=black
 hi NonText         guifg=#BCBCBC guibg=#232526
+
+hi! link htmlValue Normal
 
 "
 " Support for 256-color terminal
