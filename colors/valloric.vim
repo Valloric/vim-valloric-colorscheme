@@ -59,7 +59,7 @@ hi PreCondit       guifg=#ff0004               gui=bold
 hi PreProc         guifg=#ff0004
 hi Question        guifg=#66D9EF
 hi Repeat          guifg=#3664FF
-hi Search          guifg=#FFFFFF guibg=#455354
+hi Search          guifg=#B2D2FF guibg=#0D2D03
 " marks column
 hi SignColumn      guifg=#A6E22E guibg=#232526
 hi SpecialChar     guifg=#3664FF               gui=bold
